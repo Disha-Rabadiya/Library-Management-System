@@ -1,0 +1,59 @@
+<div class="main-container">
+    <div class="login-register-container">
+        <div class="header">
+            <div class="title">
+                <h5 (click)="changeTab(1)">Login</h5>
+                <h5 (click)="changeTab(2)">Register</h5>
+            </div>
+            <div class="nav" [class.right]="activeTab === 2">
+                <div class="active"></div>
+            </div>
+        </div>
+        <div class="content">
+            @if (activeTab === 1) {
+                <div class="login-form">
+                    <div class="input-field">
+                        <label for="email">Email <span class="astrisk">*</span></label>
+                        <input type="email" placeholder="Email" id="email">
+                    </div>
+                    <div class="input-field">
+                        <label for="password">Password <span class="astrisk">*</span></label>
+                        <input type="password" placeholder="Password" id="password" autocomplete="off">
+                    </div>
+                </div>
+                <span class="forgot-pwd" routerLink="/forgot-password">Forgot Password?</span>
+                <div class="footer">
+                    <button class="primary">Login</button>
+                </div>
+            } @else if(activeTab === 2) {
+                <div class="register-form">
+                    <div class="name">
+                        <div class="input-field">
+                            <label for="firstName">First Name <span class="astrisk">*</span></label>
+                            <input type="text" placeholder="First Name" id="firstName">
+                        </div>
+                        <div class="input-field">
+                            <label for="lastName">Last Name <span class="astrisk">*</span></label>
+                            <input type="text" placeholder="Last Name" id="lastName">
+                        </div>
+                    </div>
+                    <div class="input-field">
+                        <label for="email">Email <span class="astrisk">*</span></label>
+                        <input type="email" placeholder="Email" id="email">
+                    </div>
+                    <div class="input-field">
+                        <label for="password">Password <span class="astrisk">*</span></label>
+                        <input type="password" placeholder="Password" id="password" autocomplete="off">
+                    </div>
+                    <div class="input-field">
+                        <label for="confirmPassword">Confirm Password <span class="astrisk">*</span></label>
+                        <input type="password" placeholder="Confirm Password" id="confirmPassword" autocomplete="off">
+                    </div>
+                </div>
+                <div class="footer">
+                    <button class="primary">Register</button>
+                </div>
+            }
+        </div>
+    </div>
+</div>

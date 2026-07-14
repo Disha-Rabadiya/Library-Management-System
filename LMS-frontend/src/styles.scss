@@ -1,1 +1,40 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+// Input tyle
+.input-field {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    input {
+        border: 1px solid #BDBDBD;
+        box-shadow: none;
+        padding: 8px 16px;
+        height: 42px;
+        background: transparent;
+        font-size: 15px;
+        border-radius: 4px;
+        color: #4f4f4f;
+    }
+}
+
+//Astisc style
+.astrisk {
+    color: #72141d;
+}
+
+// Primary Button style
+.primary {
+    padding: 8px 16px;
+    background-color: #085b90;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
