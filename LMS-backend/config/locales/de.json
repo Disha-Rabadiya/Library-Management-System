@@ -1,0 +1,40 @@
+{
+  "File": {
+    "Uploaded": "File uploaded successfully",
+    "Deleted": "File deleted successfully"
+  },
+  "User": {
+    "Auth": {
+      "InvalidCredential": "email or password is wrong",
+      "NotActive": "User is not active",
+      "NotFound": "User not found",
+      "Login": "User logged in",
+      "MailSend": "Reset password link has been sent to your email",
+      "PasswordMatch": "New password must be different from the old one",
+      "InvalidLink": "Invalid or expired link",
+      "PasswordChange": "Password changed successfully",
+      "Logout": "User Logged out successfully",
+      "TokenNotFound": "Token not found",
+      "Invalid": "Invalid user",
+      "TokenMismatch": "Token mismatched",
+      "TokenExpired": "Token is expired"
+    }
+  },
+  "Admin": {
+    "Auth": {
+      "InvalidCredential": "email or password is wrong",
+      "NotActive": "Admin is not active",
+      "NotFound": "Admin not found",
+      "Login": "Admin logged in",
+      "MailSend": "Reset password link has been sent to your email",
+      "PasswordMatch": "New password must be different from the old one",
+      "InvalidLink": "Invalid or expired link",
+      "PasswordChange": "Password changed successfully",
+      "Logout": "Admin Logged out successfully",
+      "TokenNotFound": "Token not found",
+      "Invalid": "Invalid user",
+      "TokenMismatch": "Token mismatched",
+      "TokenExpired": "Token is expired"
+    }
+  }
+}
